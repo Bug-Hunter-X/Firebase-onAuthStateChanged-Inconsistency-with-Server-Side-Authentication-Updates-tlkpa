@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger if the user's authentication state changes due to a server-side operation (like an admin-initiated user deletion) before the client has a chance to receive the change. This can lead to unexpected behavior in applications relying on real-time authentication updates.
